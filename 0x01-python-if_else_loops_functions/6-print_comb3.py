@@ -6,3 +6,4 @@ for m in range(10):
                 print('{0}{1}'.format(m, n))
             else:
                 print('{0}{1}, '.format(m, n), end='')
+               
