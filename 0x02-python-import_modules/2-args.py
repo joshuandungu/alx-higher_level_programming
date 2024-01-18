@@ -9,15 +9,15 @@ if __name__ == '__main__':
 
     """
     av = sys.argv
-    m = len(av) - 1
+    args = len(av) - 1
 
-    if m > 1:
-        print(m, 'arguments:')
-        for n in range(1, m + 1):
-            print('{:d}: {}'.format(n, av[n]))
-    elif m == 1:
-        print(m, 'argument:')
-        for i in range(1, m + 1):
-            print('{:d}: {}'.format(n, av[n]))
-    elif m == 0:
-        print(m, 'arguments.')
+    if args > 1:
+        print(args, 'arguments:')
+        for i in range(1, args + 1):
+            print('{:d}: {}'.format(m, av[m]))
+    elif args == 1:
+        print(args, 'argument:')
+        for m in range(1, args + 1):
+            print('{:d}: {}'.format(m, av[m]))
+    elif args == 0:
+        print(args, 'arguments.')
